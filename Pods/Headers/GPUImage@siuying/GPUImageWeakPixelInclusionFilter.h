@@ -1,0 +1,1 @@
+../../GPUImage@siuying/framework/Source/GPUImageWeakPixelInclusionFilter.h

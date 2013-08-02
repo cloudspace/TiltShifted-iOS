@@ -1,0 +1,34 @@
+PODS:
+  - AdMob (6.4.2)
+  - Appirater (1.0.5)
+  - CSEnhancedTableView (0.0.1)
+  - CSShortcuts (0.0.1)
+  - CSStandardViewControllers (0.0.1):
+    - MBProgressHUD (~> 0.6)
+  - GoogleAnalytics-iOS-SDK (2.0beta4)
+  - GPUImage@siuying (0.0.2)
+  - MBProgressHUD (0.7)
+  - TestFlightSDK (1.3.0-beta.6)
+
+DEPENDENCIES:
+  - AdMob (~> 6.4.2)
+  - Appirater (~> 1.0.5)
+  - CSEnhancedTableView (~> 0.0.1)
+  - CSShortcuts (~> 0.0.1)
+  - CSStandardViewControllers (~> 0.0.1)
+  - GoogleAnalytics-iOS-SDK (~> 2.0beta4)
+  - GPUImage@siuying (~> 0.0.2)
+  - TestFlightSDK (~> 1.3.0beta2)
+
+SPEC CHECKSUMS:
+  AdMob: 44f411d138329b8db372997d9958e62cd33c2fa2
+  Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
+  CSEnhancedTableView: 1e41e8e94529f19fb8f4f827b0e68ea908e26b69
+  CSShortcuts: 0bd6b5f939bfbad0422ce7e07b52a8e47e938e8e
+  CSStandardViewControllers: 40b3fbc88a2f30278969283c9dd22e345b855788
+  GoogleAnalytics-iOS-SDK: ae8e58e771b6dec84c0047154cc0e550a15e6f54
+  GPUImage@siuying: ea1a42902fd44e26c2173f1c424f18f706b19ef1
+  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  TestFlightSDK: f3e516c64f61abedeb26a7b184101df54df3db09
+
+COCOAPODS: 0.20.2

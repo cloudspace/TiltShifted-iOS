@@ -1,0 +1,6 @@
+#Pods
+#Podfile.lock
+TiltShifted.xcworkspace/*
+.DS_Store
+Library/*
+TiltShifted.xcodeproj/xcuserdata/*
