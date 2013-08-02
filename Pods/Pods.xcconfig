@@ -1,0 +1,9 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Pods/AdMob" "$(PODS_ROOT)/GoogleAnalytics-iOS-SDK/Library" "$(PODS_ROOT)/TestFlightSDK"
+OTHER_LDFLAGS = -ObjC -ObjC -lGoogleAdMobAds -lGoogleAnalytics -lTestFlight -lz -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework CoreData -framework CoreGraphics -framework CoreMedia -framework CoreVideo -framework MessageUI -framework OpenGLES -framework QuartzCore -framework StoreKit -framework SystemConfiguration -framework UIKit -weak_framework AdSupport -weak_framework StoreKit
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AdMob" "${PODS_ROOT}/BuildHeaders/Appirater" "${PODS_ROOT}/BuildHeaders/CSEnhancedTableView" "${PODS_ROOT}/BuildHeaders/CSShortcuts" "${PODS_ROOT}/BuildHeaders/CSStandardViewControllers" "${PODS_ROOT}/BuildHeaders/GPUImage@siuying" "${PODS_ROOT}/BuildHeaders/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/BuildHeaders/MBProgressHUD" "${PODS_ROOT}/BuildHeaders/TestFlightSDK"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AdMob" "${PODS_ROOT}/Headers/Appirater" "${PODS_ROOT}/Headers/CSEnhancedTableView" "${PODS_ROOT}/Headers/CSShortcuts" "${PODS_ROOT}/Headers/CSStandardViewControllers" "${PODS_ROOT}/Headers/GPUImage@siuying" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/TestFlightSDK"
+PODS_ROOT = ${SRCROOT}/Pods
